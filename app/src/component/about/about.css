@@ -1,0 +1,69 @@
+#me{
+	width: 390px;
+	height: 51px;
+	background-color: #fff;
+	line-height: 51px;
+	margin-bottom: 15px;
+}
+#me-head{
+	float: left;
+	font-size: 24px;
+	color: #333;
+	margin-left: 170px;
+}
+#me-img img{
+	float: right;
+	width: 31px;
+	height: 31px;
+	margin-top: 10px;
+}
+#dengl{
+	width: 390px;
+	height: 88px;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+#dengl-img img{
+	width: 62px;
+	height: 62px;
+	float: left;
+	margin: 10px 5px;
+}
+#dengl-span{
+	float: left;
+	font-size: 14px;
+	color: #333;
+	line-height: 88px;
+}
+
+#dengl-img2 img{
+	width: 14px;
+	height: 19px;
+	float: right;
+	margin: 34px 13px;
+}
+#gengd{
+	width: 390px;
+	height: 44px;
+	background-color: #fff;
+	margin-bottom: 2px;
+}
+#gengd-img img{
+	width: 19px;
+	height: 19px;
+	float: left;
+	margin: 12px 9px;
+}
+#gengd-span{
+	float: left;
+	font-size: 14px;
+	color: #333;
+	line-height: 44px;
+}
+
+#gengd-img2 img{
+	width: 10px;
+	height: 15px;
+	float: right;
+	margin: 15px 13px;
+}

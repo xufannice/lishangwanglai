@@ -1,0 +1,64 @@
+.div{
+	width:100%;
+	height:588px;
+	margin-top: -15px;
+	background-color: #fff;
+	position: relative;
+}
+
+
+.icon{
+	border-width: 0px;
+    width: 105px;
+    position: absolute;
+    top:100px;
+    left:35%;
+    height: 105px;
+    background: inherit;
+    background-color: rgba(25, 158, 216, 1);
+    border: none;
+    border-radius: 10px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align:center;
+    line-height:105px;
+}
+.g-main{
+	position: absolute;
+	top:220px;
+	left:38%;
+	width:80px;
+	height:40px;
+	text-align:center;
+}
+.g-main p{
+	font-family: 'Arial Negreta', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #169BD5;
+}
+.g-main span{
+	font-size: 16px;
+    color: #1E1E1E;
+}
+.footer{
+	position: absolute;
+	top:320px;
+	left:20px;
+	width:350px;
+	height:40px;
+	font-size: 16px;
+
+
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+   
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+}

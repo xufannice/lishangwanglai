@@ -13,9 +13,7 @@ render(){
 				<p style={{marginLeft:'90px'}}>9:15PM</p>
 				<p style={{marginLeft:'120px'}}>82%</p>
 			</div>
-			<div id="content">
-				
-			</div>
+			
             <div id="u1">
 				<li><NavLink to="/">首页</NavLink></li>
 				<li><NavLink to="/manage">礼账</NavLink></li>

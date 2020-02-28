@@ -1,0 +1,40 @@
+#sz{
+	width: 390px;
+	height: 51px;
+	line-height: 51px;
+	background-color: #fff;
+	font-size: 24px;
+	margin-bottom:20px ;
+}
+#sz-img{
+	width: 12px;
+	height: 19px;
+	float: left;
+	margin-left: 10px;
+}
+#sz p{
+	text-align: center;
+}
+#sz-ul li{
+	width: 390px;
+	height: 44px;
+	background-color: #fff;
+	line-height: 44px;
+	margin-bottom: 10px;
+}
+#sz-ul li p{
+	float: left;
+	font-size: 14px;
+	color: #333;
+}
+#sz-ul li .img{
+	float: right;
+	line-height: 44px;
+	margin-top: 10px;
+	color: #333;
+}
+#sz-ul li p img{
+	width: 19px;
+	height: 19px;
+	margin:10px 10px 0 10px ;
+}
