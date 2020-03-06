@@ -1,0 +1,64 @@
+<view>
+  <view class="search">
+    <view class="font_box">
+      <text class="iconfont icon-location"></text>
+      <text>北京</text>
+    </view>
+    <view class="se_box"> 
+      <text class="iconfont icon-zoom"></text>
+      <input class="input" placeholder="搜索垃圾查看对应分类" bindtap="navTo"></input>
+    </view>
+  </view>
+  <view class="scroll_box">
+    
+  </view>
+  <view class="index_cont">
+    <!-- 左边盒子 -->
+    <view class="ic_left">
+      <block>
+       
+            <view class="icl_box" data-idx="{{index}}" bindtap="tabSwitch">{{'厨余垃圾'}}</view>
+            <view class="icl_box" data-idx="{{index}}" bindtap="tabSwitch">{{'其他垃圾'}}</view>
+            <view class="icl_box" data-idx="{{index}}" bindtap="tabSwitch">{{'可回收物'}}</view>
+            <view class="icl_box" data-idx="{{index}}" bindtap="tabSwitch">{{'有害垃圾'}}</view>
+        
+      </block>
+    </view>
+    <!-- 右边盒子 --> 
+    <view class="ic_right">
+      <block>
+        <view class="lajiInfo">
+        <view class="lj_top">
+          <view>
+          {{'废纸张、废塑料、废玻璃制品、废金属、废织物等适宜回收、可循环利用的生活废弃物'}}
+          </view>
+          <view>
+            {{'轻投轻放；清洁干燥，避免污染；废纸尽量平整；立体包装物请清空内容物，清洁后压扁投 放；有尖锐边角的，应包裹后投放'}}
+          </view>
+        </view>
+          <block >
+            <view style="line-height:100rpx;">{{'报纸'}}</view>
+             <view style="line-height:100rpx;">{{'报纸'}}</view>
+              <view style="line-height:100rpx;">{{'报纸'}}</view>
+               <view style="line-height:100rpx;">{{'报纸'}}</view>
+                <view style="line-height:100rpx;">{{'报纸'}}</view>
+               <view style="line-height:100rpx;">{{'报纸'}}</view>
+                <view style="line-height:100rpx;">{{'报纸'}}</view>
+               <view style="line-height:100rpx;">{{'报纸'}}</view>
+               <view style="line-height:100rpx;">{{'报纸'}}</view>
+               <view style="line-height:100rpx;">{{'报纸'}}</view>
+               <view style="line-height:100rpx;">{{'报纸'}}</view>
+               <view style="line-height:100rpx;">{{'报纸'}}</view>
+               <view style="line-height:100rpx;">{{'报纸'}}</view>
+               <view style="line-height:100rpx;">{{'报纸'}}</view>
+                <view style="line-height:100rpx;">{{'报纸'}}</view>
+                 <view style="line-height:100rpx;">{{'报纸'}}</view>
+                  <view style="line-height:100rpx;">{{'报纸'}}</view>
+          </block>
+
+        </view>
+
+      </block>
+    </view>
+  </view>
+</view>

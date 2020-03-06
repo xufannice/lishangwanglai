@@ -1,0 +1,113 @@
+@import '/icon/icon.wxss';
+.search{
+  height:135rpx;
+  padding: 37rpx 23rpx 20rpx 23rpx;
+  box-sizing: border-box;
+  line-height:80rpx;
+  font-size:30rpx;
+  font-weight:bold;
+  display: flex;
+}
+.icon-location{
+  color:#d5b973;
+  margin-right:10px;
+}
+.font_box{
+  flex:2;
+  margin-right:30rpx;
+}
+.se_box{
+  flex:8;
+  border-radius: 50rpx;
+  background:#f7f7f7;
+  height:100rpx;
+  align-items: center;
+  padding: 32rpx;
+  line-height:40rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.icon-zoom{
+  float:left;
+  margin-right: 10rpx;
+}
+.input{
+  width:300rpx;
+  float:left;
+  margin-top:-3rpx;
+}
+.index_cont{
+  width:750rpx;
+  height:100vh;
+  /* background:#ccc; */
+  display: flex;
+}
+.ic_left{
+    flex:3;
+    background:#f7f7f7;
+}
+.icl_box{
+  height:140rpx;
+   line-height:140rpx;
+   text-align: center;
+}
+.ic_right{
+  flex:9;
+}
+.lajiInfo{
+  padding:0 15rpx;
+  box-sizing: border-box;
+}
+.lj_top{
+  width:100%;
+  min-height:200rpx;
+  border-radius: 20rpx;
+  background:#fff;
+  padding:10rpx;
+  box-sizing: border-box;
+}
+/* .content_box{
+  display: flex;
+}
+.tab_card{
+  flex:3;
+  background:red;
+}
+.rig_box{
+  flex:7;
+  background: #ccc;
+}
+.item_box{
+   height:140rpx;
+   line-height:140rpx;
+} */
+.srcoll_view {
+  /* position: absolute;
+  top: 0rpx; */
+  height: 58rpx;
+  font-size: 24rpx;
+  white-space: nowrap;
+  line-height: 58rpx;
+  color: #797035;
+  background: #fef6eb;
+  animation: myfirst 20s linear infinite;
+}
+
+@keyframes myfirst {
+  0% {
+    margin-left: 750rpx;
+  }
+  100% {
+    margin-left: -1500rpx;
+  }
+}
+.scroll_view_border {
+  /* position: relative; */
+  width: 100%;
+  background: #fef6eb;
+  height: 58rpx;
+  overflow: hidden;
+}
+.scroll_box{
+  background: #fef6eb;height: 58rpx;
+}

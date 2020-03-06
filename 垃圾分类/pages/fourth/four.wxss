@@ -1,0 +1,11 @@
+/* pages/four/four.wxss */
+.inpt{
+  width:100%;
+  height:100rpx;
+  line-height:100rpx;
+  color:#000;
+  border-radius: 80rpx;
+  border:1rpx #ccc solid; 
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
