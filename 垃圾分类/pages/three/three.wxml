@@ -1,0 +1,9 @@
+<view class="book-container">
+  <block wx:for="{{zhuantiList}}" wx:key="index">
+    <view class="bcz-box" data-uid="{{item.uid}}" data-title="{{item.title}}" bindtap="navTo">
+      <image style="width:84rpx;height:84rpx;" src="{{item.img}}"></image>
+      <text class="item-title">{{item.title}}</text>
+      <text class="iconfont icon-you item-navto"></text>
+    </view>
+  </block>
+</view>

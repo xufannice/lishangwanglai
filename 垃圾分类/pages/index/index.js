@@ -3,11 +3,13 @@ Page({
   data: {
     currentTab: 0,
     listdata: "",
-    showIndex:0
+    showIndex:0,
+    a:0
   },
   tabSwitch(e){
     console.log(e)
     this.setData({
+     
       showIndex: e.currentTarget.dataset.idx
     })
   },

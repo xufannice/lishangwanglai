@@ -1,13 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/first/one",
-    "pages/second/two",
-    "pages/third/three",
-    "pages/fourth/four",
-    "pages/results/results"
-  ],
+    "pages/two/B",
+    "pages/three/three",
+    "pages/four/four"
+  ], 
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -23,19 +20,19 @@
         "selectedIconPath": "img/5.png"
       },
       {
-        "pagePath": "pages/second/two",
+        "pagePath": "pages/two/B",
         "text": "测试",
         "iconPath": "img/2.png",
         "selectedIconPath": "img/6.png"
       },
       {
-        "pagePath": "pages/third/three",
+        "pagePath": "pages/three/three",
         "text": "专题",
-        "iconPath": "img/3.png", 
+        "iconPath": "img/3.png",
         "selectedIconPath": "img/7.png"
       },
       {
-        "pagePath": "pages/fourth/four",
+        "pagePath": "pages/four/four",
         "text": "设置",
         "iconPath": "img/4.png",
         "selectedIconPath": "img/8.png"

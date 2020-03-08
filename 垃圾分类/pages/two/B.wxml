@@ -1,0 +1,40 @@
+<!--pages/B/B.wxml-->
+<view>
+  <view hidden="{{(indexs+1)==arr1.length&&true}}">
+    <view class="indexs">
+      <text class="index">{{indexs<9?0:''}}{{indexs+1}}</text>
+      <text> / {{arr1.length}}</text>
+    </view>
+    <view class="title">
+      <text>{{arr1[indexs].title}}</text> </view>
+    <view>
+      <view wx:for="{{arr2}}" class="option" bindtap="nextIndex" data-outcome="{{item}}" wx:key="index">
+        <text>{{item}}</text> </view>
+    </view>
+  </view>
+  <view wx:if="{{(indexs+1)==arr1.length}}" class="outcome">
+    <view class="title2">全国垃圾分类统一考试</view>
+    <view class="score">{{score}}分</view>
+    <view class="tables">
+        <view class="table_li">
+          <text class="a"><text></text></text>
+          <text class="b"><text>题目</text></text>
+          <text class="c"><text>我的答案</text></text>
+          <text class="d"><text>正确答案</text></text>
+        </view>
+        <view wx:for="{{arr1}}" wx:key="index" class="table_li">
+          <text class="a"><text>{{index+1}}</text></text>
+          <text class="b"><text>{{item.title}}</text></text>
+          <text class="c"><text style="text-decoration:{{item.outcome!=item.type&&'line-through'}}">{{item.outcome}}</text></text>
+          <text class="d"><text>{{item.type}}</text></text>
+        </view>
+    </view>
+  </view>
+  <view class="again" wx:if="{{(indexs+1)==arr1.length}}">
+      <view><image src="../../img/images/ceshi/1.png" bindtap="again"></image></view>
+      <view>再玩一次</view>
+    </view>
+  <view class="liuy">
+    <text>留言</text> 
+  </view>
+</view>

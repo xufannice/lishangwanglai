@@ -4,56 +4,39 @@
       <text class="iconfont icon-location"></text>
       <text>北京</text>
     </view>
-    <view class="se_box"> 
+    <view class="se_box">
       <text class="iconfont icon-zoom"></text>
       <input class="input" placeholder="搜索垃圾查看对应分类" bindtap="navTo"></input>
     </view>
   </view>
   <view class="scroll_box">
-    
+  
   </view>
   <view class="index_cont">
     <!-- 左边盒子 -->
     <view class="ic_left">
-      <block>
-       
-            <view class="icl_box" data-idx="{{index}}" bindtap="tabSwitch">{{'厨余垃圾'}}</view>
-            <view class="icl_box" data-idx="{{index}}" bindtap="tabSwitch">{{'其他垃圾'}}</view>
-            <view class="icl_box" data-idx="{{index}}" bindtap="tabSwitch">{{'可回收物'}}</view>
-            <view class="icl_box" data-idx="{{index}}" bindtap="tabSwitch">{{'有害垃圾'}}</view>
-        
+      <block wx:for="{{listdata}}" wx:key="index">
+        <view class="content_box">
+          <view class="tab_card">
+            <view style="background:{{showIndex==index?'green':''}};" class="icl_box" data-idx="{{index}}" bindtap="tabSwitch">{{item.name}}</view>
+          </view>
+        </view>
       </block>
     </view>
-    <!-- 右边盒子 --> 
+    <!-- 右边盒子 -->
     <view class="ic_right">
-      <block>
+      <block wx:for="{{listdata}}" wx:if="{{index==showIndex}}" wx:key='index'>
         <view class="lajiInfo">
         <view class="lj_top">
           <view>
-          {{'废纸张、废塑料、废玻璃制品、废金属、废织物等适宜回收、可循环利用的生活废弃物'}}
+          {{item.explain}}
           </view>
           <view>
-            {{'轻投轻放；清洁干燥，避免污染；废纸尽量平整；立体包装物请清空内容物，清洁后压扁投 放；有尖锐边角的，应包裹后投放'}}
+            {{item.require}}
           </view>
         </view>
-          <block >
-            <view style="line-height:100rpx;">{{'报纸'}}</view>
-             <view style="line-height:100rpx;">{{'报纸'}}</view>
-              <view style="line-height:100rpx;">{{'报纸'}}</view>
-               <view style="line-height:100rpx;">{{'报纸'}}</view>
-                <view style="line-height:100rpx;">{{'报纸'}}</view>
-               <view style="line-height:100rpx;">{{'报纸'}}</view>
-                <view style="line-height:100rpx;">{{'报纸'}}</view>
-               <view style="line-height:100rpx;">{{'报纸'}}</view>
-               <view style="line-height:100rpx;">{{'报纸'}}</view>
-               <view style="line-height:100rpx;">{{'报纸'}}</view>
-               <view style="line-height:100rpx;">{{'报纸'}}</view>
-               <view style="line-height:100rpx;">{{'报纸'}}</view>
-               <view style="line-height:100rpx;">{{'报纸'}}</view>
-               <view style="line-height:100rpx;">{{'报纸'}}</view>
-                <view style="line-height:100rpx;">{{'报纸'}}</view>
-                 <view style="line-height:100rpx;">{{'报纸'}}</view>
-                  <view style="line-height:100rpx;">{{'报纸'}}</view>
+          <block wx:for="{{item.common}}" wx:for-item="lhh" wx:key="*this">
+            <view style="background:{{index%2==0?'#f7f7f7':''}};line-height:100rpx;">{{lhh}}</view>
           </block>
 
         </view>

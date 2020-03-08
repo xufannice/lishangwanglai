@@ -62,7 +62,7 @@
   width:100%;
   min-height:200rpx;
   border-radius: 20rpx;
-  background:#fff;
+  background:pink;
   padding:10rpx;
   box-sizing: border-box;
 }

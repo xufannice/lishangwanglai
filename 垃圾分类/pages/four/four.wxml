@@ -1,0 +1,6 @@
+<view class="searchcont">
+ 
+</view>
+<block wx:if="{{listArr}}">
+  
+</block>
