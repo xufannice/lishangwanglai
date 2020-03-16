@@ -1,0 +1,84 @@
+#threes-item{
+	width: 129px;
+	height: 39px;
+	background-color: #fff;
+	float: left;
+	border-right: 1px solid #ccc;
+	line-height: 39px;
+	text-align: center;
+	cursor: pointer;
+}
+#threes{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#fel{
+	width: 390px;
+	height: 39px;
+}
+#leib-item{
+	width: 390px;
+	height: 39px;
+	line-height: 39px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	background-color: #fff;
+	
+}
+#leib{
+	height: 320px;
+	display: none;
+	position: absolute;
+	top: 133px;
+	left: 0;
+}
+#money{
+	height: 320px;
+	display: none;
+	position: absolute;
+	top: 133px;
+	left: 0;
+}
+#time-item{
+	width: 194px;
+	height: 39px;
+	background-color: #999;
+	float: left;
+	color: #fff;
+	font-size: 13px;
+	border-right: 1px solid #ccc;
+	line-height: 39px;
+	text-align: center;
+}
+#time-left{
+	float: left;
+	width: 194px;
+	height: 120px;
+	background-color: #fff;
+	border-right: 2px solid #ccc;
+	margin-bottom: 2px;
+}
+#time-a{
+	float: left;
+	margin-left: 23px;
+	line-height: 39px;
+	font-size: 12px;
+}
+#fel-qd{
+	float: left;
+	width: 390px;
+	height: 39px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 39px;
+	color: #199ED8;
+	cursor: pointer;
+}
+#time{
+	display: none;
+	width: 390px;
+	height: 210px;
+	position: absolute;
+	top: 133px;
+	left: 0;
+}
